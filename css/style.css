@@ -1,0 +1,15 @@
+/* Fonte Padrão */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cores Padrões */
+:root {
+    --cor-primaria:;
+    --cor-secundaria:;
+    --cor-terciaria:;
+    --cor-quartenaria:;
+    --cor-quintenaria:;
+}

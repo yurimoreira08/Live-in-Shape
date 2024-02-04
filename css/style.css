@@ -7,9 +7,10 @@ body {
 
 /* Cores Padrões */
 :root {
-    --cor-primaria:;
-    --cor-secundaria:;
-    --cor-terciaria:;
-    --cor-quartenaria:;
-    --cor-quintenaria:;
+    --cor-primaria:#64baa1;
+    --cor-secundaria:#33a483;
+    --cor-terciaria:#021f53;
+    --cor-quartenaria:#1e3866;
+    --cor-quintenaria:#a3e5f3;
+    --cor-senaria:#fff;
 }

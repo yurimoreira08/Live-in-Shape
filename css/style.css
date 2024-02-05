@@ -24,10 +24,12 @@ body {
 
 .titulos{
     font-family: 'Alfa Slab One', sans-serif;
+    font-size: xx-large;
 }
 
 .textos{
     font-family: 'Roboto', sans-serif;
+    font-size: x-large;
 }
 
 
@@ -93,4 +95,62 @@ header{
     margin-top: 6rem;
     height: 23rem;
     margin-bottom: 3rem;
+}
+
+/*SEÇÃO SOBRE*/
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.topico1 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.secundariaT{
+    color: var(--cor-secundaria);
+}
+
+.secundaria{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+
+.texto1{
+    display: flex;
+    justify-content: center;
+    width: 60rem;
+    text-align: justify;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.topico2{
+    margin-bottom: 1rem;
+    color: #D8D8D8;
+    margin-left: 4rem;
+}
+
+.texto2{
+    width: 46rem;
+    color: var(--cor-senaria);
+    margin-left: 4rem;
+    text-align: justify;
+    line-height: 2.3rem;
+}
+
+.objetivos{
+    background-color: var(--cor-terciaria);
+    width: 57rem;
+    border-radius: 22px;
+    margin-left: 12rem;
+    padding: 2rem;
+    margin-top: 5rem;
+  
 }

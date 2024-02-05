@@ -1,5 +1,8 @@
 /* Fonte Padrão */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,4 +16,43 @@ body {
     --cor-quartenaria:#1e3866;
     --cor-quintenaria:#a3e5f3;
     --cor-senaria:#fff;
+}
+
+
+/*Padrões*/
+
+.titulos{
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+
+/*HAEDER*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25rem;
+    background-color: var(--cor-primaria);
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navegacao a{
+    font-family: 'Inter', sans-serif;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.logo-liveInShape img{
+    height: 6rem;
 }

@@ -1,5 +1,6 @@
 /* Fonte Padrão */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -23,6 +24,10 @@ body {
 
 .titulos{
     font-family: 'Alfa Slab One', sans-serif;
+}
+
+.textos{
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -55,4 +60,37 @@ header{
 
 .logo-liveInShape img{
     height: 6rem;
+}
+
+/*SEÇÃO 1*/
+
+.terciaria{
+    color: var(--cor-terciaria);
+    font-weight: bold;
+}
+
+.secao1{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    gap: 3rem;
+
+}
+
+.slogan h1{
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 28rem;
+    text-align: justify;
+    line-height: normal;
+}
+
+.logo-goodShape img{
+    margin-top: 6rem;
+    height: 23rem;
+    margin-bottom: 3rem;
 }

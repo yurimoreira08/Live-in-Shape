@@ -269,7 +269,7 @@ line-height: 2rem;
     
     header{
         
-        gap:2rem;
+        gap:1.5rem;
         display: flex;
         justify-content: flex-start;
     }

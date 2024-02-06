@@ -32,6 +32,11 @@ body {
     font-size: x-large;
 }
 
+.terciaria{
+    color: var(--cor-terciaria);
+    font-weight: bold;
+}
+
 
 /*HAEDER*/
 
@@ -65,11 +70,6 @@ header{
 }
 
 /*SEÇÃO 1*/
-
-.terciaria{
-    color: var(--cor-terciaria);
-    font-weight: bold;
-}
 
 .secao1{
     margin-top: 6rem;
@@ -152,5 +152,47 @@ header{
     margin-left: 12rem;
     padding: 2rem;
     margin-top: 5rem;
-  
+    margin-bottom: 10rem;
+}
+
+
+/*SEÇÃO PRINCIPAIS FUNCIONALIDADES*/
+
+.topico3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.feed h1{
+    color: var(--cor-terciaria);
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.feed p{
+    width: 24rem;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+.dividindo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 12rem;
+}
+
+.videochamada h1{
+    color: var(--cor-terciaria);
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.videochamada p{
+    width: 19rem;
+    text-align: justify;
+    line-height: 2.5rem;
 }

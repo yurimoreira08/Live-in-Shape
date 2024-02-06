@@ -196,3 +196,56 @@ header{
     text-align: justify;
     line-height: 2.5rem;
 }
+
+/*SEÇÃO BENEFÍCIOS*/
+
+.beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 40rem;
+    margin-left: 23rem;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.beneficios2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 40rem;
+    margin-left: 23rem;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.beneficios2 p{
+margin-right: 5rem;
+}
+
+.beneficios3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 40rem;
+    margin-left: 23rem;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.beneficios3 p{
+width: 25rem;
+line-height: 2rem;
+}

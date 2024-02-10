@@ -215,6 +215,7 @@ color: var(--cor-senaria);
     margin-left: 23rem;
     border-radius: 5px;
     margin-bottom: 4rem;
+    z-index: 998;
 }
 
 .beneficios2{
@@ -254,6 +255,54 @@ width: 25rem;
 line-height: 2rem;
 }
 
+/* SEÇÃO PLANOS */
+.benefi {
+    margin-bottom: -10rem;
+}
+
+.titulos2{
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: xx-large;
+    color: var(--cor-senaria);
+}
+
+.textos2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    color: var(--cor-senaria);
+}
+
+.planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor-quartenaria);
+    padding: 15rem 0 25rem 0;
+}
+
+.plano{
+    display: flex;
+    align-items: center;
+    margin: 5rem 3rem 0 3rem;
+}
+
+.plano img {
+    width: 15rem;
+    margin-right: 3rem;
+}
+
+/*SEÇÃO TECNOLOGIAS*/
+.tecnologias {
+    text-align: center;
+    margin-top: -15rem;
+}
+
+.img-tecnologias {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
 
 /*RESPONSIVIDADE*/
 

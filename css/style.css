@@ -61,6 +61,9 @@ header{
 
 .navegacao a :hover{
 color: var(--cor-senaria);
+text-decoration: underline;
+transition-duration: 0.5s;
+
 }
 
 .navegacao{
@@ -71,6 +74,27 @@ color: var(--cor-senaria);
 
 .logo-liveInShape img{
     height: 6rem;
+}
+
+.botao{
+    margin-top: 2rem;
+    background-color: black;
+    padding: 16px;
+    width: 9rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 1s;
+}
+
+.botao:hover{
+    background-color: var(--cor-terciaria);
+}
+
+.botao a{
+    text-decoration: none;
+    color:var(--cor-senaria);
+    font-weight: bold;
 }
 
 /*SEÇÃO 1*/

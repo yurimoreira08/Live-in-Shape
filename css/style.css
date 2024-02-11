@@ -289,8 +289,9 @@ line-height: 2rem;
 
 .textos2 {
     font-family: 'Roboto', sans-serif;
-    font-size: x-large;
+    font-size: larger;
     color: var(--cor-senaria);
+    width: 70%;
 }
 
 .planos {
@@ -305,12 +306,11 @@ line-height: 2rem;
 .plano{
     display: flex;
     align-items: center;
-    margin: 5rem 3rem 0 3rem;
+    margin-top: 5rem;
 }
 
 .plano img {
     width: 15rem;
-    margin-right: 3rem;
 }
 
 /*SEÇÃO TECNOLOGIAS*/
@@ -321,7 +321,8 @@ line-height: 2rem;
 
 .tecnologias2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 4rem;
     margin-top: 10rem;
 }
 
@@ -352,8 +353,54 @@ line-height: 2rem;
 }
 
 .img-premio {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
+
+
+/*SEÇÃO MEMBROS*/
+footer {
+    padding: 3rem 0 3rem 0;
+    background-color: var(--cor-secundaria);
+}
+
+.membros-cima {
+    margin-bottom: 5rem;
+}
+
+footer h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.membros-cima, .membros-baixo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.membro img {
+    width: 10rem;
+}
+
+.membro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+ ion-icon {
+    color: black;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
 
 /*RESPONSIVIDADE*/
 
@@ -529,22 +576,33 @@ line-height: 2rem;
     .beneficios3 p{
         width: 17rem;
     }
-    .plano, .tecnologias2 {
+    .planos, .plano {
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+    }
+    .plano {
         gap: 2rem;
     }
+    .tecnologias2 {
+        flex-direction: column;
+        align-items: center;
+    }
     .premios {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
-    .premio {
-        margin: 0;
+    .membro img {
+        width: 5rem;
     }
-
+    .membro ion-icon {
+        font-size: 1rem;
+    }
 }
 
 
-
+/* 
 @media (min-width: 480px){
     header{
         width: 100%;
@@ -556,6 +614,5 @@ line-height: 2rem;
     .secao1{
         width: 100%;
     }
-
-
-}
+} 
+ */

@@ -322,16 +322,17 @@ line-height: 2rem;
 .tecnologias2 {
     display: flex;
     justify-content: center;
-    gap: 4rem;
-    margin-top: 10rem;
+    gap: 2rem;
+    margin-top: 8rem;
 }
 
 .img-tecnologias {
     display: flex;
     flex-direction: column;
     background-color: var(--cor-senaria);
-    padding: 1rem 2rem 4rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img-tecnologias img {
@@ -339,7 +340,13 @@ line-height: 2rem;
 }
 
 .img-tecnologias .textos1 {
-    margin-top: 4rem;
+    margin-top: 3rem;
+}
+
+.textos1{
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 /* SEÇÃO PRÊMIOS */
@@ -347,13 +354,19 @@ line-height: 2rem;
     display: flex;
     justify-content: center;
     background-color: var(--cor-quintenaria);
-    gap: 2rem;
     margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+  margin-right: 10rem;
     padding: 3rem 0 3rem 0;
 }
 
-.img-premio {
-    margin-top: 1rem;
+.img-premios {
+    margin-top: 10rem;
+}
+
+.img-premios img, .img-premio img{
+    height: 25rem;
 }
 
 

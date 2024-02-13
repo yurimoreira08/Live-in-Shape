@@ -39,6 +39,14 @@
       
     }
 
+    .botao{
+        padding: 8px;
+        width: 6rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        background-color: var(--cor-terciaria);
+    }
+
     .topico1 h1{
         width: 100%;
         font-size: x-large;

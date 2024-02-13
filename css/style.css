@@ -351,8 +351,6 @@ line-height: 2rem;
 
 /* SEÇÃO PRÊMIOS */
 .premios {
-    display: flex;
-    justify-content: center;
     background-color: var(--cor-quintenaria);
     margin-top: 10rem;
     margin-bottom: 20rem;
@@ -360,6 +358,11 @@ line-height: 2rem;
     margin-right: 12rem;
     padding: 3rem 0 3rem 0;
     gap: 1rem;
+}
+
+.div-premios{
+    display: flex;
+    justify-content: center;
 }
 
 .img-premios h1{
@@ -433,7 +436,7 @@ footer{
     margin-top: -1rem;
 }
 
-.footer p{
+footer p{
     color: var(--cor-senaria);
     display: flex;
     justify-content: center;

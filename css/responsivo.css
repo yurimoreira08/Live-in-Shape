@@ -173,30 +173,91 @@
         flex-direction: column;
         justify-content: center;
     }
+
     .plano {
         gap: 2rem;
     }
+
+    .planos{
+        margin-bottom: 7rem;
+    }
+
+    .titulos2{
+        font-size: x-large;
+    }
+
     .tecnologias2 {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        gap: 1rem;
+        margin-top: 6rem;
     }
-    .premios {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+
+    .img-tecnologias img {
+        width: 5rem;
+        height: 5rem;
     }
+
+    .textos1{
+        font-size: medium;
+    }
+
+    .img-tecnologias {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .img-tecnologias .textos1 {
+        margin-top: 2rem;
+    }
+
+    .premios{
+        margin: 7rem 1rem 17rem 1rem;
+    }
+
     .img-premio {
         width: 10rem;
         align-items: center;
         display: flex;
         flex-direction: column;
+        margin-top: 4rem;
     }
+
+    .img-premios h1{
+        font-size: larger;
+        width: 12rem;
+        line-height: 2rem;
+    }
+
+    .img-premios img, .img-premio img{
+        height: 15rem;
+        margin-bottom: -13rem;
+    }
+
+    .img-premio img{
+        margin-top: -3rem;
+    }
+
+    .div-premios{
+        gap: 0.5rem;
+        margin-top: -2rem;
+    }
+
+
+
     .membro img {
         width: 5rem;
     }
     .membro ion-icon {
         font-size: 1rem;
+    }
+
+    .membro p{
+        font-size: small;
+    }
+
+    footer p{
+        font-size: xx-small;
+        flex-wrap: wrap;
     }
 }
 

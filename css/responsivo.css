@@ -357,3 +357,74 @@
     }
     
 }
+
+@media (min-width: 1000px){
+    header{
+        justify-content: center;
+        gap: 25rem;
+    }
+
+    .slogan h1{
+        font-size: 2.5rem;
+        width: 28rem;
+        line-height: normal;
+    }
+
+    .secao1{
+        width: 100%;
+    }
+
+    .texto1 p{
+        width: 100%;
+        line-height: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .topico2{
+        padding-left: 0rem;
+    }
+
+    .texto2{
+        padding: 0 0 0 0rem;
+        width: 100%;
+        line-height: 2.3rem;
+    }
+
+    .objetivos{
+        margin-left: 20rem;
+        padding: 2rem 2rem 2rem 3rem;
+        justify-content: center;
+    }
+
+    
+
+    
+    .feed p{
+        width: 24rem;
+    }
+    
+    .dividindo{
+        gap: 8rem;
+        margin-bottom: 12rem;
+    }
+    
+    
+    .videochamada p{
+        width: 19rem;
+    }
+
+    .chatI{
+        margin-right: 30rem;
+    }
+
+
+
+    .chatIn{
+        margin-left: -12rem;
+    }
+
+
+    .secao3{
+        margin-right: 22rem;
+    }
+}

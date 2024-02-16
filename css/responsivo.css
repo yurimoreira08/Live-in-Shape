@@ -337,7 +337,7 @@
     }
 
     .texto1 .textos2{
-        width: 25rem;
+        width: 40rem;
     }
 
     .premios{
@@ -378,6 +378,10 @@
         width: 100%;
     }
 
+    .texto1{
+        width: 50%;
+    }
+
     .texto1 p{
         width: 100%;
         line-height: 2.5rem;
@@ -400,7 +404,12 @@
         justify-content: center;
     }
 
-    
+
+
+    .plano{
+        gap: 32px;
+        align-items: center;
+    }
 
     
     .feed p{

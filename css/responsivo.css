@@ -355,6 +355,10 @@
         justify-content:flex-start;
         align-items: center;
     }
+
+    .texto1{
+        width: 100%;
+    }
     
 }
 

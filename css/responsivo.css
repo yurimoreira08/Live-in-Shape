@@ -242,8 +242,6 @@
         margin-top: -2rem;
     }
 
-
-
     .membro img {
         width: 5rem;
     }
@@ -360,6 +358,9 @@
         width: 100%;
     }
     
+    .planos {
+        padding: 5rem 0 18rem 0;
+    }
 }
 
 @media (min-width: 1000px){
@@ -431,7 +432,6 @@
     }
 
 
-
     .chatIn{
         margin-left: -12rem;
     }
@@ -440,4 +440,177 @@
     .secao3{
         margin-right: 22rem;
     }
+
+    .planos {
+        padding: 5rem 0 30rem 0;
+    }
+}
+
+@media (min-width: 330px){
+    header{
+        width: 100%;
+        justify-content: flex-start;
+        gap: 8px;
+    }
+
+    .navegacao a{
+        font-size: x-small;
+    }
+
+    .logo-liveInShape img{
+        height: 4rem;
+    }
+
+    .secao1{
+        margin-top: 2rem;
+        flex-direction: column-reverse;
+        gap: 0rem;
+    }
+
+    .logo-goodShape img{
+        height: 13rem;
+    }
+
+    .slogan h1{
+        margin-top: -2rem;
+        font-size: larger;
+        width: 65%;
+        padding: 0 0 0 3rem;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .botao{
+        padding: 6px;
+        width: 6rem;
+        margin-left: 32%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: var(--cor-terciaria);
+    }
+
+    .topico1 h1{
+        font-size: larger;
+    }
+
+    .texto1 p{
+        font-size: medium;
+        line-height: 2rem;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .objetivos{
+        width: 83%;
+        border-radius: 22px;
+        margin: 0 1rem 0 0.8rem;
+        padding: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+
+    .topico2 h1{
+        font-size: larger;
+        margin-left: -4rem;
+    }
+
+    .texto2 p{
+        font-size: medium;
+        margin-left: -4rem;
+        line-height: 1.8rem;
+    }
+
+    .topico3 h1{
+        font-size: larger;
+    }
+
+    .dividindo img{
+        height: 8rem;
+        margin-left: -9rem;
+        margin-top: -1rem;
+    }
+
+    .feed h1{
+        font-size: medium;
+        width: 10rem;
+    }
+
+    .feed p{
+        font-size: small;
+        line-height: 1.3rem;
+        width: 9rem;
+    }
+
+    .feed{
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .videochamada{
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .videochamada h1{
+        font-size: medium;
+        width: 12rem;
+    }
+
+    .videochamada p{
+        font-size: small;
+        line-height: 1.3rem;
+        width: 10rem;
+    }
+    
+    .chatI{
+        width: 100%;
+        margin-left: 9rem;
+    }
+
+    .chatIn p{
+        width: 11rem;
+        font-size: small;
+        text-align: start;
+    }
+
+    .chatI img{
+        height: 8rem;
+        margin-right: 12rem;
+        margin-top: 0rem;   
+    }
+
+    .chatIn{
+        width: 100%;
+        margin-left: -19rem;
+    }
+
+    .beneficios, .beneficios2, .beneficios3{
+        margin-left: 1rem;
+        width: 22rem;
+        padding: 1rem 0rem;
+
+    }
+
+    .beneficios p, .beneficios2 p, .beneficios3 p{
+        font-size: small;
+        line-height: 1.5rem;
+
+    }
+
+    .beneficios img, .beneficios2 img, .beneficios3 img{
+        height: 1.5rem;
+    }
+
+
+    .beneficios2 img{
+        margin-left: 2rem;
+    }
+
+    .beneficios{
+        width: 100%;
+    }
+
+    .beneficios3 p{
+        width: 14rem;
+    }
+
 }

@@ -59,7 +59,7 @@ header{
     font-weight: 600;
 }
 
-.navegacao a :hover{
+.navegacao a:hover{
 color: var(--cor-senaria);
 text-decoration: underline;
 transition-duration: 0.5s;

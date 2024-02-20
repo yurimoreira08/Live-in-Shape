@@ -446,11 +446,11 @@
     }
 }
 
-@media (max-width: 330px){
+@media (max-width: 400px){
     header{
         width: 100%;
         justify-content: flex-start;
-        gap: 8px;
+        gap: 32px;
     }
 
     .navegacao a{
@@ -585,7 +585,7 @@
 
     .beneficios1, .beneficios2, .beneficios3{
         margin-left: 1.8rem;
-        width: 15rem;
+        width: 18rem;
         padding: 1rem;
 
     }

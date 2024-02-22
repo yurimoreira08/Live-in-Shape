@@ -130,7 +130,7 @@
         margin-left: 9rem;
     }
 
-    .chatI img{
+    .chatI img {
         height: 8rem;
         margin-right: 12rem;
         margin-top: 0rem;   
@@ -273,7 +273,7 @@
     }
 
     .objetivos{
-        margin-left: 3rem;
+        margin-left: 4rem;
         margin-right: 3rem;
     }
 
@@ -316,7 +316,7 @@
         margin-left: 7rem;
     }
 
-    .dividindo img{
+    .dividindo img, .img-vantagens{
         margin-right: 10rem;
     }
 
@@ -359,8 +359,17 @@
     }
     
     .planos {
-        padding: 5rem 0 18rem 0;
+        padding: 5rem 0 1rem 0;
+        margin-bottom: -4rem;
     }
+    .premios{
+        margin: 7rem 1rem 1rem 1rem;
+        padding: 3rem 0 15rem 0;
+    }
+    .objetivos {
+        margin-bottom: 1rem;
+    }
+
 }
 
 @media (min-width: 1000px){
@@ -400,13 +409,13 @@
     }
 
     .objetivos{
-        margin-left: 20rem;
+        margin-left: 27rem;
         padding: 2rem 2rem 2rem 3rem;
         justify-content: center;
     }
 
     .plano{
-        gap: 32px;
+        gap: 5rem;
         align-items: center;
     }
 
@@ -440,7 +449,16 @@
     }
 
     .planos {
-        padding: 5rem 0 30rem 0;
+        padding: 5rem 0 3rem 0;
+        margin-bottom: -4rem;
+    }
+    
+    .premios {
+        padding: 3rem 0 18rem 0;
+        margin: 7rem 12rem 1rem 12rem;
+    }
+   .img-vantagens{
+        width: 20rem;
     }
 }
 
@@ -503,7 +521,6 @@
         margin: 0 1rem 0 0.8rem;
         padding: 1rem;
         margin-top: 3rem;
-        margin-bottom: 10rem;
     }
 
     .topico2 h1{
@@ -521,7 +538,7 @@
         font-size: larger;
     }
 
-    .dividindo img{
+    .dividindo img, .img-vantagens{
         height: 8rem;
         margin-left: -9rem;
         margin-top: -1rem;
@@ -570,7 +587,7 @@
         text-align: start;
     }
 
-    .chatI img{
+    .chatI img {
         height: 8rem;
         margin-right: 12rem;
         margin-top: 0rem;   
@@ -612,7 +629,8 @@
     }
 
     .planos{
-        padding: 5rem 0 19rem 0;
+        padding: 5rem 0 3rem 0;
+        margin-bottom: -4rem;
     }
 
     .titulos2{
@@ -652,7 +670,8 @@
     }
 
     .premios{
-        margin: 7rem 1rem 17rem 1rem;
+        margin: 7rem 1rem 1rem 1rem;
+        padding: 3rem 0 9rem 0;
     }
 
     .img-premio {
@@ -699,6 +718,10 @@
         flex-wrap: wrap;
         line-height: 1rem;
         padding: 0 0 1rem 0;
+    }
+
+    .ion-footer{
+        font-size: 1.2rem;
     }
 
 }

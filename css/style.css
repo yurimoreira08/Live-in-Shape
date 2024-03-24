@@ -224,6 +224,7 @@ transition-duration: 0.5s;
     line-height: 2.5rem;
 }
 
+
 /*SEÇÃO BENEFÍCIOS*/
 
 .beneficios1{
@@ -277,6 +278,61 @@ margin-right: 5rem;
 width: 25rem;
 line-height: 2rem;
 }
+
+
+/*by Rafael*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-benefit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    padding: 40px 0;
+}
+
+.card-benefit:hover {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    transition: 0.5s;
+    border-left: var(--cor-terciaria) solid 40px;
+}
+
+.card-benefit-content {
+    width: 30%;
+}
+
+.card-benefit h1 {
+    color: var(--cor-terciaria);
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-benefit p {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.card-benefit img {
+    width: 260px;
+    height: 260px;
+    background-color: var(--cor-quartenaria);
+    clip-path: circle();
+}
+
+.card-benefit-invert {
+    flex-direction: row-reverse;
+}
+
+
 
 /* SEÇÃO PLANOS */
 

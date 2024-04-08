@@ -87,6 +87,12 @@ transition-duration: 0.5s;
     transition: 1s;
 }
 
+.botao-meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .botao:hover{
     background-color: var(--cor-terciaria);
 }

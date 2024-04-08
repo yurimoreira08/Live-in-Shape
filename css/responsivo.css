@@ -39,12 +39,14 @@
       
     }
 
+    .botao1{
+        margin-left: 2rem;
+    }
+
     .botao{
         padding: 8px;
-        width: 6rem;
-        margin-left: 2rem;
+        width: 9rem;
         margin-top: 1rem;
-        background-color: var(--cor-terciaria);
     }
 
     .topico1 h1{

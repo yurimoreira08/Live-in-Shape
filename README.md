@@ -1,15 +1,53 @@
+<span align="center">![logo da live in shape](https://github.com/yurimoreira08/Live-in-Shape/assets/128076962/a331b796-58f7-4647-8b5a-b7682171dc85)</span>
+
+
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=33a483&style=for-the-badge"/>
 </p>
 
-# Landing Page do Good Shape
-
-<p align="center">
- <a href="#objetivo">Sobre</a> •
- <a href="#roadmap">Objetivo</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Desenvolvedores</a> • 
-</p>
+# Bem-vindo(a) à nossa Landing Page do Good Shape!
 
 ## Sobre:
-A empresa Live in Shape é uma plataforma inovadora que tem como objetivo principal melhorar o bem-estar e a qualidade de vida dos seus usuários. Através do seu aplicativo GoodShape, a Live in Shape oferece uma variedade de recursos e ferramentas para auxiliar as pessoas a atingirem seus objetivos de saúde e condicionamento físico.
+Para pessoas que sofrem de falta de tempo e necessitam perder peso de forma eficiente e segura, o **Good Shape** é um aplicativo que permite que os clientes possam realizar consultas online com nutricionistas e personal trainers. O aplicativo tem como objetivo ajudar na perda de peso e na prática de exercícios sem sair de casa. Entrar em forma sem precisar se dirigir a uma academia, apenas no conforto de casa. Seguindo recomendações de exercícios e dieta diários alcançando previamente seus objetivos.
+
+## 1. Explore nossos recursos: 
+Navegue pela página para descobrir dicas e recursos para promover práticas saudáveis de bem-estar.
+
+## 2. Conecte-se Conosco:
+Estamos aqui para ajudar! Se tiver dúvidas ou precisar de suporte, entre em contato conosco através do e-mail: liveinshape5@gmail.com ou siga-nos nas redes sociais para ficar por dentro das novidades.
+
+## 3. Descubra os Benefícios do Good Shape:
+- `Feed de Conteúdos Personalizados:` Feed com base nos objetivos e preferências do usuário, fornecendo conteúdos relevantes.
+- `Chat Interativo:` Comunicação instantânea entre usuários e profissionais para suporte contínuo.
+- `Videochamadas Integradas:` Agendamento e realização de consultas virtuais com profissionais de saúde.
+- `Custo:` Não precisar gastar com academia.
+- `Cardápio:` Cardápios personalizados com base nos objetivos e preferências do usuário.
+- `Exercícios:` Exercícios eficazes adaptados ao ambiente em que você está.
+
+## 4. Acesse Nossos Links Úteis:
+Encontre links diretos para seções importantes da página, sobre nosso aplicativo, os objetivos, funcionalidades, planos personalizados, membros da empresa.
+
+## 5. Compatibilidade com Dispositivos Móveis:
+Aproveite nossa página em qualquer lugar! Garantimos que a experiência seja consistente em dispositivos móveis para sua conveniência.
+
+## 6. Compartilhe com Amigos e Família:
+Ajude a promover práticas saudáveis de bem-estar compartilhando nossa landing page com amigos e familiares. Juntos, podemos espalhar o bem-estar!
+
+# 📁 Acesso ao projeto
+
+Você pode acessar a landing page clicando [aqui](https://liveinshape.netlify.app/). <br>
+Conheça também o nosso aplicativo [Good Shape](https://goodshape.netlify.app/).
+
+## ✔️ Tecnologias utilizadas
+
+- ``HTML5``
+- ``CSS3``
+
+
+## Desenvolvedores
+
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://github.com/Lorranyy"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/128076962?v=4" width="100px;" alt=""/><br /><sub><b>Lorrany Santos</b></sub></td>
+    <td align="center"><a href="https://github.com/yurimoreira08"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/128077291?v=4" width="100px;" alt=""/><br /><sub><b>Yuri Moreira</b></sub></td>
+</table>
